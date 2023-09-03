@@ -5,12 +5,7 @@
 # merely static locals. either way, we always know to look in locals for the definition of all
 # variables.
 
-output "platform_management_group_name" {
-  value       = local.connectivity_management_group_name
-  description = "The display name for the Connectivity management group."
-}
-
-output "platform_management_group_name" {
-  value       = local.platform_management_group_name
-  description = "The display name for the Platform management group."
+output "management_groups" {
+  value       = local.management_groups
+  description = "Metadata about the enterprise management groups."
 }
