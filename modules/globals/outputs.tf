@@ -6,6 +6,11 @@
 # variables.
 
 output "platform_management_group_name" {
+  value       = local.connectivity_management_group_name
+  description = "The display name for the Connectivity management group."
+}
+
+output "platform_management_group_name" {
   value       = local.platform_management_group_name
-  description = "The display name for the platform management group."
+  description = "The display name for the Platform management group."
 }
