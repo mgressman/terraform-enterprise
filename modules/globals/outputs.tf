@@ -9,3 +9,8 @@ output "management_groups" {
   value       = local.management_groups
   description = "Metadata about the enterprise management groups."
 }
+
+output "subscriptions" {
+  value = local.subscriptions
+  description = "Metadata about the enterprise subscriptions."
+}
